@@ -4,7 +4,7 @@
 
 #define ZMQ_STATIC
 
-static char *listen_on = "tcp://127.0.0.1:8000";
+static char *listen_on = "tcp://0.0.0.0:8000";
 
 int main(int argc, char **argv)
 {
